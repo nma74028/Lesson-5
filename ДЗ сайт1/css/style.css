@@ -196,9 +196,11 @@ color: #FFFFFF;
 background: #EC7979;
 border-radius: 0px 0px 10px 10px;
 width: 450px;
-display: flex;
+display: block;
+margin: 0px -50px;
 justify-content: center;
-padding: 20px 0;
+padding: 23px 0;
+border: none;
 
 }
 
@@ -529,14 +531,20 @@ padding-top: 10px;
 
 .options-item-nav{
     width: 370px;
-    height: 220px; 
     background:#FFFFFF; 
         
 }
 
 .options-item-nav li{
-    padding-top: 15px; 
+    padding-top: 15px;
+    padding-bottom: 10px;
     list-style-type: none;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #86878B;
 }
 
 /* customers */
